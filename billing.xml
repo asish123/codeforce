@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<project name="codeforec360" default="compile">
+
+<target name="info" >
+<echo> info is executed </echo>
+</target>
+
+<target name="clean" depends=info>
+<echo> clean is executed </echo>
+</target>
+
+<target name="compile" depends="clean">
+<echo> compile is executed </echo>
+</target>
+</project>
+
