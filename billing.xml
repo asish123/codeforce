@@ -6,7 +6,7 @@
 <echo> info is executed </echo>
 </target>
 
-<target name="clean" depends=info>
+<target name="clean" depends="info">
 <echo> clean is executed </echo>
 </target>
 
